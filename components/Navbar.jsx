@@ -37,10 +37,9 @@ return (
          </span>
      </div>
      <div className="padding">
-         <div className="text-center padding"><Link href="/" ><a className="link text-white">Link One</a></Link></div>
-         <div className="text-center padding"><Link href="/" ><a className="link text-white">Link Two</a></Link></div>
-         <div className="text-center padding"><Link href="/" ><a className="link text-white">Link Three</a></Link></div>
-         <div className="text-center padding"><Link href="/" ><a className="link text-white">Link Four</a></Link></div>
+         <div className="text-center padding"><Link href="/" ><a className="link text-white">Home</a></Link></div>
+         <div className="text-center padding"><Link href="/hotels" ><a className="link text-white">Our Hotels</a></Link></div>
+         <div className="text-center padding"><Link href="/" ><a className="link text-white">About</a></Link></div>
      </div>
 </div>
      </div>
