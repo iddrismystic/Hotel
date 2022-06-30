@@ -1,0 +1,107 @@
+
+.bg-1{background-color:#f0ebe5 !important}
+.bg-2{background-color:#f9f7f7 !important}
+.hero{
+  background-image: url('/img/bg.jpg');
+  min-height:100vh;
+  height:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:relative;
+
+ 
+}
+.subHero{
+  background-image: url('/img/bg.jpg');
+  height:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:relative;
+  min-height:400px;
+  height:fit-content;
+ 
+}
+
+*{font-size:17px}.text-small{font-size: 13px;}
+.h1, .h2, .h2 , .text-big,.text-bigger, .text-jumbo{font-weight: 300 !important;}
+
+.darken-5{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding: 50px 0px;
+}
+
+.m-section{
+padding: 50px 0px;
+}
+.navContainer{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  padding:0px 10%;
+  z-index: 10;
+}
+.navigation-bar a{
+  margin:0px 5px;
+  transform:0.3s linear;
+    border-bottom:2px solid transparent;
+}
+.navigation-bar a:hover{
+  border-bottom:2px solid white;
+}
+.central{
+    display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.bookBtn{
+background:transparent;
+padding:10px 15px;
+  border:2px solid #fff;
+  color:white;
+  margin:20px 0px;
+}
+
+.h-middle , .row-flex{
+      display:flex;
+  align-items:center;
+
+}
+
+.sideBar{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  background-color:rgba(0,0,0,0.2);
+  height:100vh;
+  margin-left:-100%;
+  transition:0.3s linear;
+}
+.sideBarContent{
+  background-color: rgba(0,0,0,0.8);
+  height:100vh;
+}
+
+.mainContent{
+  position: relative;
+  background-color: #f2f2f2;
+}
+.rightContent{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 400px;
+  padding: 20px 10px;
+}
+.leftContent{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: calc(100% - 400px);
+  padding: 20px 5%;
+}
