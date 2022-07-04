@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Navbar from '../components/Navbar';
 const Receipt = () => {
 const [Data, setData] = useState(null)
 useEffect(()=>{
@@ -10,11 +11,12 @@ useEffect(()=>{
 
   if(Data != null){ return ( 
         <div>
+            <Navbar />
          <div className="page">
 	<h1 className="f">RECEIPT</h1>
-	<img className=' full-width' src="/img/1.jpg"  />
-	<p className="address">{Data.street}</p>
-	<div className="padding clear-both">
+	<img className='full-width' src="/img/1.jpg"  />
+
+	<div className="padding-5 clear-both">
 		<div className="section light padding-5 round-edge">Full Name: {Data.name}</div>
 		<div className="section light padding-5 round-edge">Email: {Data.email}</div>
 		<div className="section light padding-5 round-edge">Phone: {Data.phone}</div>
