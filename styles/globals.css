@@ -53,7 +53,7 @@
 }
 
 *{font-size:14px}.text-small{font-size: 13px;}
-.padding-5{padding: 5px;}
+.padding-5{padding: 5px !important;}
 
 .darken-5{
   position:absolute;
