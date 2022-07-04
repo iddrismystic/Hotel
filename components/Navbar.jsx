@@ -17,7 +17,7 @@ return (
 <div className="h2 text-white">Hotel Bay</div>
 <div className="link-wrapper">
 <Link href="/" ><a className="text-white">Home</a></Link>
-<Link href="/" ><a className="text-white">About</a></Link>
+<Link href="/#contact" ><a className="text-white">About</a></Link>
 
 <Link href="/hotels" ><a className="text-white">
 <Icon icon="far fa-paper-plane" /> Our Hotels
@@ -39,7 +39,7 @@ return (
      <div className="padding">
          <div className="text-center padding"><Link href="/" ><a className="link text-white">Home</a></Link></div>
          <div className="text-center padding"><Link href="/hotels" ><a className="link text-white">Our Hotels</a></Link></div>
-         <div className="text-center padding"><Link href="/" ><a className="link text-white">About</a></Link></div>
+         <div className="text-center padding"><Link href="/#contact" ><a className="link text-white">About</a></Link></div>
      </div>
 </div>
      </div>

@@ -1,4 +1,34 @@
 
+:root{
+  --primaryColor:#482ff7;
+  --secondaryColor:#2d6cdf;
+  --accentColor:#46c3db;
+  --rareColor:#f3f169;
+  --lightDark:#1a2738;
+  --darkMode:#071e3d;
+  --lightMode:#e2f3f5;
+
+}
+
+.primary , .primary-bg{background-color: var(--primaryColor) !important;}
+.secondary , .secondary-bg{background-color: var(--primaryColor) !important;}
+.tertiary{background-color: var(--accentColor) !important;}
+.darkMode{background-color: var(--darkMode) !important;}
+.lightMode{background-color: var(--lightMode) !important;}
+.rare{background-color: var(--rareColor) !important;}
+.lightDark{background-color: var(--lightDark) !important;}
+.primary-text {color: var(--primaryColor) !important;}
+ .secondary-text{color: var(--secondaryColor) !important;}
+.tertiary-text{color: var(--accentColor) !important;}
+.darkMode-text{color: var(--darkMode) !important;}
+.rare-text{color: var(--rareColor) !important;}
+.lightDark-text{color: var(--lightDark) !important;}
+
+.border-primary{border: 1px solid var(--primaryColor) !important;}
+.border-secondary{border: 1px solid var(--secondaryColor) !important;}
+.border-tertiary{border: 1px solid var(--accentColor) !important;}
+.border-lightDark{border: 1px solid var(--lightDark) !important;}
+.border-darkMode{border: 1px solid var(--darkMode) !important;}
 .bg-1{background-color:#f0ebe5 !important}
 .bg-2{background-color:#f9f7f7 !important}
 .hero{
@@ -22,8 +52,8 @@
  
 }
 
-*{font-size:17px}.text-small{font-size: 13px;}
-.h1, .h2, .h2 , .text-big,.text-bigger, .text-jumbo{font-weight: 300 !important;}
+*{font-size:14px}.text-small{font-size: 13px;}
+.padding-5{padding: 5px;}
 
 .darken-5{
   position:absolute;
@@ -77,19 +107,20 @@ padding:10px 15px;
   top:0px;
   left:0px;
   width:100%;
-  background-color:rgba(0,0,0,0.2);
+  /* background-color:rgba(0,0,0,0.2); */
   height:100vh;
   margin-left:-100%;
   transition:0.3s linear;
 }
 .sideBarContent{
-  background-color: rgba(0,0,0,0.8);
+  background-color: var(--darkMode);
   height:100vh;
 }
 
 .mainContent{
   position: relative;
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
+ 
 }
 .rightContent{
   position: absolute;
@@ -97,6 +128,7 @@ padding:10px 15px;
   right: 0;
   width: 400px;
   padding: 20px 10px;
+  background-color: #f1f1f1;
 }
 .leftContent{
   position: absolute;
@@ -104,4 +136,20 @@ padding:10px 15px;
   left: 0;
   width: calc(100% - 400px);
   padding: 20px 5%;
+  background-color: #f1f1f1;
 }
+
+
+.page{
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	height: 100%;
+	margin: auto;
+	padding-top: 10px;
+	width: 600px;
+	box-shadow: 0 0 100px rgba(0,0,0,0.2);
+	max-width: 100%;
+  padding: 10px 20px;
+	background: white;
+}
+

@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import '../styles/fun.css'
 import Head from "next/head"
+import Footer from './../components/Footer';
 function MyApp({ Component, pageProps }) {
   return (
 <div>
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
  @import url({"https://cdn.lineicons.com/3.0/lineicons.css"});
 </style>
 <Component {...pageProps} />
+<Footer />
 </div>
 )
 }

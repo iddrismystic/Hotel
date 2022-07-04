@@ -24,9 +24,9 @@ export default function Home() {
 <Navbar />
  
   <div className="central height-300-min margin-top-40">
-<div className="width-800-max text-white center text-center">
-<div className="text-bigger text-lighter ">
-    Welcome To Paradise, Welcome To Hotel Bay 
+<div className="width-700-max text-white center text-center">
+<div className="text-bigger ">
+    Welcome To Paradise, Welcome To Hotel Bay.
 </div>
 <div className="section width-400-max center">
     Sed ut perspiciatis unde omnis iste 
@@ -68,7 +68,7 @@ but we’ll delight you with surprises along the way."
           <img src="/img/food.jpg" className="fit"/>
         </Div>
         <Div funcss="section">
-        <Typography text="Private Concierge" size="big"/>
+        <Typography text="Get The Best Recipes" heading="h2"/>
         </Div>
         <Div funcss="section padding-right-10">
         <Typography text="Helicopter transfers, Michelin star chefs
@@ -84,7 +84,7 @@ but we’ll delight you with surprises along the way."
           <img src="/img/water.jpg" className="fit"/>
         </Div>
         <Div funcss="section">
-        <Typography text="Private Concierge" size="big"/>
+        <Typography text="Have A Relaxing Time" heading="h2"/>
         </Div>
         <Div funcss="section padding-right-10">
         <Typography text="Helicopter transfers, Michelin star chefs
@@ -100,7 +100,7 @@ but we’ll delight you with surprises along the way."
           <img src="/img/event.jpg" className="fit"/>
         </Div>
         <Div funcss="section">
-        <Typography text="Private Concierge" size="big"/>
+        <Typography text="Make Your Holidays Special" heading="h2"/>
         </Div>
         <Div funcss="section padding-right-10">
         <Typography text="Helicopter transfers, Michelin star chefs
@@ -188,7 +188,25 @@ but we’ll delight you with surprises along the way."
     </div>
     </div>
 
-
+<div className="m-section" id="contact">
+<div className="container">
+<div className="h1 text-center">Contact Us Now</div>
+  <div className="row">
+    <div className="col sm-12 md-6 lg-6 padding">
+      <input type="text" placeholder='Full Name' className='input bordered full-width' />
+    </div>
+    <div className="col sm-12 md-6 lg-6 padding">
+      <input type="text" placeholder='Email' className='input bordered full-width' />
+    </div>
+    <div className="col sm-12 md-12 lg-12 padding">
+      <textarea type="text" placeholder='Message' className='input bordered full-width' rows={5}/>
+      <div className="section">
+      <button type="submit" value="Submit" className="button darkMode text-white card" >Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
     </section>
   )
 }
