@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
     
-  <footer className="padding-20 footer darkMode text-white">
+  <footer className="padding-20 footer darkMode text-white margin-top-50">
   <div className="">
       <div className="row">
           <div className="col sm-6 md-3 lg-3 ">

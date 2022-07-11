@@ -37,8 +37,17 @@ export default function Home() {
 <div>
 <Link href="/hotels">
   <a>
-  <button className="bookBtn pointer hover-up hover-text-blue text-success">
+  <button className="bookBtn pointer hover-up hover-text-blue text-white">
     Book a room <i className="far fa-paper-plane text-white"></i>
+    </button>
+  </a>
+</Link>
+&nbsp;
+&nbsp;
+<Link href="/login">
+  <a>
+  <button className="button white text-success hover-up">
+    Login Account <i className="far fa-user text-success"></i>
     </button>
   </a>
 </Link>

@@ -3,6 +3,7 @@ import Icon from "../Funcss/Components/Icon";
 import Link from "next/link"
 const Navbar = ({bg , color}) => {
     const [sidebar, setsidebar] = useState(false)
+    const [data, setdata] = useState(null)
     useEffect(()=>{
         const sideBar = document.querySelector(".sideBar");
         window.addEventListener("click" ,(e)=>{
@@ -11,6 +12,20 @@ const Navbar = ({bg , color}) => {
             }
         })
     })
+    useEffect(() => {
+        if (sessionStorage.getItem("user")){
+            setdata(
+              JSON.parse(
+                sessionStorage.getItem("user")
+              )
+            )
+            }else{
+              setdata(null)
+            }
+    })
+    const HandleLogout = ()=>{
+        sessionStorage.removeItem("user")
+    }
 return ( 
 <div className={"navContainer black"}>
 <div className="navigation-bar " >
@@ -22,7 +37,13 @@ return (
 <Link href="/hotels" ><a className="text-white">
 <Icon icon="far fa-paper-plane" /> Our Hotels
 </a></Link>
+{data ? 
+    <a className="text-white pointer" onClick={HandleLogout}>
+   Logout
+</a>:""
+}
 </div>
+
 <div className="sidebar-trigger">
     <i className="fas fa-bars text-white size-3" onClick={()=>setsidebar(!sidebar)}></i>
 </div>

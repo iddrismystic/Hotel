@@ -1,7 +1,19 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 const Booking = () => {
     const Form = useRef(null)
+    const [data, setdata] = useState([])
+    useEffect(()=>{
+     if (localStorage.getItem("booking")){
+      setdata(
+        JSON.parse(
+          localStorage.getItem("booking")
+        )
+      )
+      }else{
+        setdata([])
+      }
+    },[])
     const HandleBook = (e)=>{
         e.preventDefault()
         const current = Form.current;
@@ -19,7 +31,7 @@ const Booking = () => {
         const room = current["room"].value
         const bedding = current["bedding"].value
         const comments = current["comments"].value
-        const data ={
+        const doc ={
             name:name,
             email:email,
             phone:phone,
@@ -37,8 +49,9 @@ const Booking = () => {
 
         }
        new Promise(async(resolve , reject)=>{
-        localStorage.setItem("booking" , JSON.stringify(await data))
-        resolve("/receipt")
+      data.push(doc)
+      localStorage.setItem("booking" , JSON.stringify(await data))
+      resolve("/receipt")
        }).then(url=>{window.location.assign(url)})
 
     }
@@ -148,4 +161,4 @@ const Booking = () => {
      );
 }
  
-export default Booking;
+export default Booking
