@@ -14,7 +14,7 @@ import Col from '../Funcss/Components/Col';
 import Navbar from '../components/Navbar'
 import { useState } from 'react';
 
-export default function login() {
+export default function Login() {
     const [email, setemail] = useState(null)
     const [password, setpassword] = useState(null)
     const [state, setstate] = useState("")

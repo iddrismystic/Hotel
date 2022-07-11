@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { useEffect, useRef, useState } from "react";
-export default function bookings() {
+export default function Bookings() {
     const [data, setdata] = useState(null)
     useEffect(()=>{
      if (localStorage.getItem("booking")){
