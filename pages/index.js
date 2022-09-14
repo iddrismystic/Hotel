@@ -26,7 +26,7 @@ export default function Home() {
   <div className="central height-300-min margin-top-40">
 <div className="width-700-max text-white center text-center">
 <div className="text-bigger ">
-    Welcome To Paradise, Welcome To Hotel Bay.
+    Welcome To Paradise, Welcome To Jam Hotels.
 </div>
 <div className="section width-400-max center">
     Sed ut perspiciatis unde omnis iste 
@@ -134,24 +134,15 @@ but we’ll delight you with surprises along the way."
 </div>
 <div className="section width-400-max">
 <Typography text="Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-    Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
+Your ideal destination for All-Inclusive stay, overlooking a picturesque lake,
+  Jam Hotels, Green Community offers an outdoor pool area that includes a separate children’s pool for.
+
   "
  funcss="section"
   />
             <Typography text="Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-    Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
+  The First Collection at wa is located in the district of Upper west. 
+  The 41-storey high-rise hotel features 491 fully equipped guestrooms.
   "
  funcss="section"
   />
@@ -166,24 +157,14 @@ but we’ll delight you with surprises along the way."
 </div>
 <div className="section width-400-max">
 <Typography text="Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-    Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
+The First Collection Business Bay is a modern, stylish hotel located in
+  the Business Bay district and is 1.6 km away from Upper mall.
   "
  funcss="section"
   />
 <Typography text="Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
-    Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
+With city views,
+  a 24-hour front desk, bar, garden, year-round outdoor pool and childrens playground.
   "
  funcss="section"
   />
