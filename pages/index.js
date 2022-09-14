@@ -60,11 +60,11 @@ export default function Home() {
 <div className="m-section bg-1">
 <div className="container">
 <Div funcss="width-700-max section padding">
-<Typography text="Signature Ultima Services" size="bigger"/>
+<Typography text="known for our world-class service" size="bigger"/>
 </Div>
 <Div funcss="width-500-max section padding">
 <Typography text="We’re 
-known for our world-class service, surpassing ‘luxury’ 
+surpassing ‘luxury’ 
 to offer highly personalised experiences in utter seclusion.
 Not onlydo we get to know and anticipate your needs,
 but we’ll delight you with surprises along the way." 
@@ -133,14 +133,14 @@ but we’ll delight you with surprises along the way."
  <span className="text-indigo text-bigger">   Step  </span> Into the World of Ultima Collection
 </div>
 <div className="section width-400-max">
-<Typography text="Sed ut perspiciatis unde omnis iste 
+<Typography text="
 Your ideal destination for All-Inclusive stay, overlooking a picturesque lake,
   Jam Hotels, Green Community offers an outdoor pool area that includes a separate children’s pool for.
 
   "
  funcss="section"
   />
-            <Typography text="Sed ut perspiciatis unde omnis iste 
+            <Typography text="
   The First Collection at wa is located in the district of Upper west. 
   The 41-storey high-rise hotel features 491 fully equipped guestrooms.
   "
@@ -156,13 +156,13 @@ Your ideal destination for All-Inclusive stay, overlooking a picturesque lake,
  <span className="text-indigo text-bigger"> Comfortable </span> Environment For You
 </div>
 <div className="section width-400-max">
-<Typography text="Sed ut perspiciatis unde omnis iste 
+<Typography text="
 The First Collection Business Bay is a modern, stylish hotel located in
   the Business Bay district and is 1.6 km away from Upper mall.
   "
  funcss="section"
   />
-<Typography text="Sed ut perspiciatis unde omnis iste 
+<Typography text="
 With city views,
   a 24-hour front desk, bar, garden, year-round outdoor pool and childrens playground.
   "
