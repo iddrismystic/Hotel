@@ -11,7 +11,7 @@ const Navbar = ({bg , color}) => {
                setsidebar(false)
             }
         })
-    })
+    },[])
     useEffect(() => {
         if (sessionStorage.getItem("user")){
             setdata(
@@ -22,9 +22,10 @@ const Navbar = ({bg , color}) => {
             }else{
               setdata(null)
             }
-    })
+    },[])
     const HandleLogout = ()=>{
         sessionStorage.removeItem("user")
+        window.location.assign("/")
     }
 return ( 
 <div className={"navContainer black"}>
