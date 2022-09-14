@@ -29,9 +29,7 @@ export default function Home() {
     Welcome To Paradise, Welcome To Jam Hotels.
 </div>
 <div className="section width-400-max center">
-    Sed ut perspiciatis unde omnis iste 
-  natus error sit voluptatem accusantium 
-  doloremque laudantium, totam rem aperiam
+  The JAM hotel is a stunning property in Cape Town, and the site does a great job of conveying the prestige, luxury, and elegance of this special hotel.
 </div>
   
 <div>
