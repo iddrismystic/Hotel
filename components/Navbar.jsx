@@ -29,7 +29,7 @@ const Navbar = ({bg , color}) => {
 return ( 
 <div className={"navContainer black"}>
 <div className="navigation-bar " >
-<div className="h2 text-white">Hotel Bay</div>
+<div className="h2 text-white">Jam Hotels</div>
 <div className="link-wrapper">
 <Link href="/" ><a className="text-white">Home</a></Link>
 <Link href="/#contact" ><a className="text-white">About</a></Link>
